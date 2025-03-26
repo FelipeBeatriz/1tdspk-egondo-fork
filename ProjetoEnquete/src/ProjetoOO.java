@@ -14,5 +14,6 @@ public class ProjetoOO {
         System.out.print(um.getQuestaoFormulada());
         String resp = tec.nextLine();
         Resposta r1 = new Resposta("Professor", resp, um.getNumero());
+
     }
 }
